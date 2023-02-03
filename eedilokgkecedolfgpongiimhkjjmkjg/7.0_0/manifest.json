@@ -1,0 +1,20 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "button.png",
+      "default_title": "Clear Browsing Data"
+   },
+   "description": "(Clear browsing data) shortcut button,clear your browsing history and other personal data.",
+   "icons": {
+      "48": "button.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApTgkGuhr1oJL2YY/p8no9aky3YXWlsLyYLAqTzrJ3sWdH0QfnC2VebIL3PYYBhZgo1KROJV0xqsrIpSXg1WTx2m5rycg2U8WiOIvcPCPyaUtx6marxy5mBHex65W/boej/moK7AI1Dqm7HPj1IBwO4SjTstsHZiCGBLKNHD5jgdpUzlTvzpTR1i8s/vdDO/4GXVPx2Yz3hpYilpRnl4FqY8ery/BcMMOiXuRoG/NkGJ9llJVS5euDnRahFuCrTaSf62rZtv3JK+156soIEfgAK8OdtVbABkOoR8KPONdGho9vgOFi73OdaPh1hV3j/XeLrMv3qJpdsyP2AMkXMLBUwIDAQAB",
+   "manifest_version": 2,
+   "name": "Clear Browsing Data Button",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "7.0"
+}
